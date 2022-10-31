@@ -51,11 +51,10 @@ a {
 ul {
   list-style-type: none;
 
-  display: flex;
   margin: 0;
   padding: 0;
+  display: flex;
   gap: 16px;
-
 }
 
 .left,
@@ -63,8 +62,5 @@ ul {
   display: flex;
   gap: 16px;
   align-items: center;
-
   
 }
-
-
