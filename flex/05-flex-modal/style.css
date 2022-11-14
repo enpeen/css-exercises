@@ -20,10 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  
 
   display: flex; 
-  padding: 15px;
-  gap: 15px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
@@ -39,7 +40,6 @@ body {
   justify-content: center;
 
   flex-shrink: 0;
-   
 }
 
 .close-button {
@@ -80,9 +80,9 @@ button.cancel {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .text {
-  margin-bottom: 10px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
