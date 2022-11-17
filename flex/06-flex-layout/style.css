@@ -8,6 +8,7 @@ body {
 
   display: flex;
   flex-direction: column;
+  
 }
 
 img {
@@ -19,7 +20,6 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 10px 16px;
 }
 
 input {
@@ -36,45 +36,42 @@ input {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: auto;
-  padding-right: 16px;
-  margin-left: -24px;
- 
+}
 
+ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: auto;
   background-color: #eeeeee;
-  padding-right: 16px;
-  margin-left: -24px;
-  
-  
-  
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
   justify-content: center;
 }
 
-.left-links {
-  display: flex;
-  list-style: none;
-  gap: 16px;
+.header,
+.footer {
+  padding: 16px;
 }
 
-.right-links {
-  display: flex;
-  list-style: none;
-  gap: 16px;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(105, 105, 105);
+button {
+  padding: 8px 16px;
 }
