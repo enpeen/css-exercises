@@ -8,7 +8,6 @@ body {
 
   display: flex;
   flex-direction: column;
-  
 }
 
 img {
@@ -33,9 +32,15 @@ input {
 
 
 
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eeeeee;
 }
 
 ul {
@@ -44,32 +49,19 @@ ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  background-color: #eeeeee;
-
 }
 
 a {
   text-decoration: none;
-  color: rgb(102, 102, 102);
+  color: rgb(95, 95, 95);
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex: 1;
   justify-content: center;
-}
-
-.header,
-.footer {
-  padding: 16px;
+  align-items: center;
 }
 
 button {
