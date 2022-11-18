@@ -40,17 +40,18 @@ body {
   flex: 1;
 }
 
-.card {
-  width: 300px;
-  padding: 16px;
-  
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
-  gap: 25px;
+  
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+  margin: 16px;
+
 }
 
 .footer {
@@ -68,21 +69,25 @@ body {
 }
 
 .sidebar {
-  width: 300px;
   flex-shrink: 0;
   padding: 16px;
 }
 
 a {
   font-size: 24px;
-  color: white; 
+  color: white;
   text-decoration: none;
-  
 }
 
 ul {
-  list-style: none;
   padding: 0px;
   margin: 0px;
+  list-style: none;
 }
+
+li {
+  margin-bottom: 16px;
 }
+
+
+
